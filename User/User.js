@@ -2,31 +2,23 @@ const Sequelize = require("sequelize");
 const connection = require ("../database/database");
 
 const User = connection.define ('User',{        
-    senha:{
-        type: Sequelize.CHAR(8),
-        allowNull: false
-    },    
     nome:{
         type: Sequelize.STRING(50),
         allowNull: false
-    },    
-    cnpj:{
-        type: Sequelize.CHAR(14),
-        allowNull: true
-    },    
-    razao:{
-        type: Sequelize.STRING(50),
-        allowNull: true
-    },    
-    email_juri:{
-        type: Sequelize.STRING(50),
-        allowNull: true
-    },    
-    email_fisica:{
-        type: Sequelize.STRING(50),
+    },
+    senha:{
+        type: Sequelize.CHAR(8),
         allowNull: false
-    },    
-    nascimento_fisica:{
+    },
+    email:{
+        type: Sequelize.STRING(50),
+        allowNull: true
+    }, 
+    tipo:{
+        type: Sequelize.CHAR,
+        allowNull: true
+    },   
+    nascimento:{
         type: Sequelize.DATE,
         allowNull: true
     },    
@@ -50,10 +42,6 @@ const User = connection.define ('User',{
         type: Sequelize.STRING(14),
         allowNull: true
     },    
-    tipo:{
-        type: Sequelize.CHAR,
-        allowNull: true
-    },
     sexo:{
         type: Sequelize.CHAR,
         allowNull: true
