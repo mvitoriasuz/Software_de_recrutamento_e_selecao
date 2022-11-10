@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const connection = require("./database/database");
+const session = require("express-session");
 
 /***********************************************************************************************
   Chamando a Tabela
@@ -44,6 +45,14 @@ app.use(express.urlencoded({ extended: true }))
   Informa ao Express que irá utilizar o EJS
 ************************************************************************************************/
 app.set('view engine', 'ejs');
+
+/***********************************************************************************************
+  Ativar o gerenciamento de sessões
+************************************************************************************************/
+app.use(session({
+  secret: "tccrecrutamentoeselecaoararas2022@", //Palavra chave qualquer para aumentar a segurança do servidor
+  cookie: {maxAge:1800000}    //Tempo de expiração da sessão, valor em milisegundos - 30min
+}));
 
 /***********************************************************************************************
   Informando que iremos utilizar arquivos estáticos

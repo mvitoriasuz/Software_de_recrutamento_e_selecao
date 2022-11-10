@@ -16,7 +16,7 @@ router.post("/salvarcadastro", (req,res) =>{
     var senha = req.body.senha;
     
     User.create({
-        email_fisica: email,
+        tipo: email,
         nome: nome,
         senha: senha
     }).then(()=>{
