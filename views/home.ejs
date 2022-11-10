@@ -1,0 +1,366 @@
+<%- include('./partials/header.ejs') %>
+<%- include('./partials/navbar.ejs') %>
+
+<div class="jumbotron jumbotron-fluid mb-5">
+    <div class="container text-center py-5">
+        <div class="mx-auto" style="width: 100%; max-width: 600px; ">
+            <div class="col-lg-12 pt-0">
+                <h1 class="display-4 text-white mb-3 animated slideInDown">Encontre sua vaga de emprego</h1>
+                <p class="fs-5 text-white-50 mb-5 animated slideInDown">Clique abaixo para busca de vagas de emprego</p>
+                <a class="btn btn-primary py-2 px-3 animated slideInDown" href="vagas">
+                    Veja mais
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About Start -->
+<section class="page-section" id="services">
+    <div class="container">
+        <div class="text-center">
+            <!-- <h2 class="section-heading text-uppercase">Services</h2>
+            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3> -->
+        </div>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/img/trabalho.jpg" class="card-img-top" alt="Erro ao carregar a imagem!"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Agilidade</h5>
+                      <p class="card-text">Processo seletivo ágil e profissionais exatos para sua busca</p>
+                      <!-- <a href="#!" class="btn btn-primary">Button</a> -->
+                    </div>
+                  </div>                    
+                </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/img/recrutamento.jpg" class="card-img-top" alt="Erro ao carregar a imagem!"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Empresarial</h5>
+                      <p class="card-text">Destaque sua vaga e amplie a visualização do seu anúncio</p>
+                      <!-- <a href="#!" class="btn btn-primary">Button</a> -->
+                    </div>
+                  </div>                         
+                </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/img/imagem2.jpg" class="card-img-top" alt="Erro ao carregar a imagem!"/>
+                    <div class="card-body">
+                      <h5 class="card-title">Vagas</h5>
+                      <p class="card-text">Atraia os profissionais mais engajados no mercado de trabalho</p>
+                      <!-- <a href="#!" class="btn btn-primary">Button</a> -->
+                    </div>
+                  </div>                         
+                </div>
+        </div>
+    </div>
+</section>
+<!-- About End -->
+
+
+<!-- Causes Start -->
+<div class="container-xxl bg-light my-5 py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px; visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;">
+            <h1 class="display-6 mb-5">Vagas</h1>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <section class="page-section bg-light" id="portfolio">
+                <div class="container">
+                    <div class="text-center">
+                        <h3 class="section-subheading text-muted"></h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <!-- Portfolio item 1-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                                <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                              </svg>
+                                    </div>
+                                    </div>
+                                    <img class="img-fluid" src="img/img/logo_sem_escrita.jpg" alt="Erro ao carregar imagem" />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Vendas e Telemarketing</div>
+                                    <!-- <p><a href="#!" class="btn btn-primary">Button</a><p> -->
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <!-- Portfolio item 2-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="bi bi-plus-lg"></i><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                          </svg>    </div>
+                                    </div>
+                                    <img class="img-fluid" src="img/img/logo_sem_escrita.jpg" alt="Erro ao carregar imagem" />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Soldador Montagem</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-4">
+                            <!-- Portfolio item 3-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="bi bi-plus-lg"></i><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                          </svg></div>
+                                    </div>
+                                    <img class="img-fluid" src="img/img/logo_sem_escrita.jpg" alt="Erro ao carregar imagem" />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Mecânico de Automóvel</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                            <!-- Portfolio item 4-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="bi bi-plus-lg"></i><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                          </svg></div>
+                                    </div>
+                                    <img class="img-fluid" src="img/img/logo_sem_escrita.jpg" alt="Erro ao carregar imagem" />
+                                </a>
+                                <div class="portfolio-caption"> 
+                                    <div class="portfolio-caption-heading">Caldeireiro</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                            <!-- Portfolio item 5-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="bi bi-plus-lg"></i><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                          </svg></div>
+                                    </div>
+                                    <img class="img-fluid" src="img/img/logo_sem_escrita.jpg" alt="Erro ao carregar imagem" />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Auxiliar de Mecânico</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <!-- Portfolio item 6-->
+                            <div class="portfolio-item">
+                                <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                    <div class="portfolio-hover">
+                                        <div class="portfolio-hover-content"><i class="bi bi-plus-lg"></i><svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M8 2a.5.5 0 0 1 .5.5v5h5a.5.5 0 0 1 0 1h-5v5a.5.5 0 0 1-1 0v-5h-5a.5.5 0 0 1 0-1h5v-5A.5.5 0 0 1 8 2Z"/>
+                                          </svg></div>
+                                    </div>
+                                    <img class="img-fluid" src="img/img/logo_sem_escrita.jpg" alt="Erro ao carregar imagem" />
+                                </a>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Auxiliar Geral</div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="container-center">
+                <a class="btn btn-primary py-2 px-3 animated slideInDown" href="vagas">
+                    Clique para mais
+                </a>
+                </div>
+            </section>
+            
+        </div>
+    </div>
+</div>
+<!-- Causes End -->
+<div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-5" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close.ico" alt="Erro ao colocar o icon" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Vendas e Telemarketing</h2>
+                            <p class="item-intro text-muted">Auxiliar em toda parte de venda.</p>
+                            <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
+                            <strong>Detalhe sobre a Vaga:</strong>
+                            
+                            <p>Auxiliar em toda parte de vendas; Entrar em contato com empresas, escolas e comèrcios através do telefone.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    Data de publicação: 30/08/2022
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn btn-primary">Candidate-se</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 2 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close.ico" alt="Erro ao colocar o icon" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Soldador Montagem</h2>
+                            <p class="item-intro text-muted">Experiência em solda</p>
+                            <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
+                            <strong>Detalhe sobre a Vaga:</strong>
+                            
+                            <p>Experiência em solda para serviços de serralheria, furação e montagens.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    Data de publicação: 29/08/2022		
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn btn-primary">Candidate-se</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 3 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close.ico" alt="Erro ao colocar o icon" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Mecânico de Automóvel</h2>
+                            <p class="item-intro text-muted"> Mecânico de Automóvel</p>
+                            <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
+                            <strong>Detalhe sobre a Vaga:</strong>
+                            
+                            <p>Ter Experiência na área.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    Data de publicação: 31/08/2022
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn btn-primary">Candidate-se</a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 4 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close.ico" alt="Erro ao colocar o icon" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Caldeireiro</h2>
+                            <p class="item-intro text-muted">Caldeireiro</p>
+                            <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
+                            <strong>Detalhe sobre a Vaga:</strong>
+                            
+                            <p>Experiência na área e disponibilidade de horário.</p>
+                            <ul class="list-inline">
+                                <li>
+                                    Data de publicação: 31/08/2022
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn btn-primary">Candidate-se</a>
+                            </button>                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 5 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close.ico" alt="Erro ao colocar o icon" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Auxiliar de Mecânico</h2>
+                            <p class="item-intro text-muted">Auxiliar de mecânico.</p>
+                            <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
+                            <strong>Detalhe sobre a Vaga:</strong>
+                            
+                            <p>Ter Experiência na área</p>
+                            <ul class="list-inline">
+                                <li>
+                                    Data de publicação: 31/08/2022
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn btn-primary">Candidate-se</a>
+                            </button>                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Portfolio item 6 modal popup-->
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-bs-dismiss="modal"><img src="img/close.ico" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <!-- Project details-->
+                            <h2 class="text-uppercase">Auxiliar Geral</h2>
+                            <p class="item-intro text-muted">Auxiliar Geral</p>
+                            <!-- <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/1.jpg" alt="..." /> -->
+                            <strong>Detalhe sobre a Vaga:</strong>
+                            
+                            <p>Disponibilidade de Horário</p>
+                            <ul class="list-inline">
+                                <li>
+                                    Data de publicação: 31/08/2022
+                                </li>
+                            </ul>
+                            <a href="#!" class="btn btn-primary">Candidate-se</a>
+                            </button>                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include('./partials/footer.ejs') %>
